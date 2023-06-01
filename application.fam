@@ -6,9 +6,9 @@ App(
     apptype=FlipperAppType.EXTERNAL,
     entry_point="demo_app_app",
     stack_size=2 * 1024,
-    fap_category="Misc",
+    fap_category="Tools",
     # Optional values
-    fap_version=(0, 11),  # (major, minor)
+    fap_version=(0, 12),  # (major, minor)
     fap_icon="demo_app.png",  # 10x10 1-bit PNG
     # fap_description="A simple app",
     # fap_author="J. Doe",
