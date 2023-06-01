@@ -7,7 +7,6 @@ int32_t demo_app_app(void* p) {
     UNUSED(p);
     FURI_LOG_I("TEST", "Hello world");
     FURI_LOG_I("TEST", "I'm demo_app!");
-    breaking the code
 
     return 0;
 }
