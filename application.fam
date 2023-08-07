@@ -2,15 +2,15 @@
 
 App(
     appid="demo_app",  # Must be unique
-    name="app demo_app",  # Displayed in UI
+    name="App demo_app",  # Displayed in UI
     apptype=FlipperAppType.EXTERNAL,
     entry_point="demo_app_app",
     stack_size=2 * 1024,
     fap_category="Tools",
     # Optional values
-    fap_version=(0, 12),  # (major, minor)
+    fap_description="A simple app",
+    fap_version="1.0",  # (major, minor)
     fap_icon="demo_app.png",  # 10x10 1-bit PNG
-    # fap_description="A simple app",
     # fap_author="J. Doe",
     # fap_weburl="https://github.com/user/demo_app",
     fap_icon_assets="images",  # Image assets to compile for this application
